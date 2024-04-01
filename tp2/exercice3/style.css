@@ -77,7 +77,7 @@ a{
 }
 .conta2{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .container3 .it{
     display: block;
