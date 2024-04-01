@@ -66,11 +66,11 @@ a{
 .container2 a{
     display: block;
     /*background-image: url(color.png);*/
-    background-color: blue;
+    background-color: rgb(0, 50, 112);;
     border: solid gainsboro 1px;
 }
 .container2 a:hover{
-    background-color:aqua;
+    background-color:rgb(0, 30, 112);
 }
 .container2{
     display: flex;
