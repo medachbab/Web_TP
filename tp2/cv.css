@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 30px;
+}
+.containerparent{
+    display: inline-flex;
+    /*justify-content: center;*/
+    
+}
+.cont1{
+    background-image: url(./originalcolor.png);
+    position: absolute;
+    width: 100%;
+   /* min-width: 200px;*/
+    top: 30px;
+    height: 120px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    /*axe X:*/
+    justify-content: space-around;
+    /*axe Y:*/
+    align-items: center;
+    /*gap: 900px;
+    /*animation-name: hijo ;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;*/
+}
+/*@keyframes hijo {
+    from{
+        background-color: aqua;
+    }
+    to{
+        background-color:#0679f5;
+    }
+    
+}*/
+.cont1 .nom{
+    margin-top: 10px;
+    text-transform:uppercase;
+    font-size: 32px;
+    position: relative;
+}
+.cont1 .profession{
+    font-size: 16px;
+    font-variant: small-caps;
+    position: relative;
+
+}
+.txt{
+    /*flex-shrink: 1;*/
+    flex-basis: 700px;
+    /*flex-grow: 1;
+    /*margin-top: 15px;
+    margin-left: 15px;*/
+}
+.cont1 .profile{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    border: white solid 5px;
+    /*align-self:center;*/ 
+}
+.cont2{
+    height: auto;
+    width: 500px;
+    background-image: url(./originalcolor2.png);
+}
+.cont2 hr{
+    margin: 30px;
+    display: block;
+}
+.infos1{
+    margin-top: 200px;
+}
+.inf{
+    margin: 10px;
+    display: flex;
+}
+.icon{
+    /*espace:*/
+    flex-basis: 50px;
+}
+a{
+    text-decoration: none;
+    /*color: white;*/
+}
+ul{
+    list-style-position: inside;
+    list-style-type:disc;
+}
+.infos{
+    margin: 10px;
+
+}
+.infos h2{
+    font-size: 25px;
+    font-weight: 500;
+}
+.infos span{
+    font-size: 16px;
+    font-weight:300;
+}
+.cont3{
+    flex-grow: 1;
+    background-color:gainsboro;
+    line-height: 50px;
+    color: gray;
+}
+.title{
+    display: flex;
+}
+
+.cont3 .object{
+    margin-top: 200px;
+    margin-left: 20px;
+    color: gray;
+
+}
+.cont3 .rest{
+    margin: 20px;
+    color: gray;
+}
+.cont3 .hi{
+    color:#515050;
+    /*font-size: 16px;*/
+    text-transform: uppercase;
+    /*font-weight: 600; */
+}
+/*.obj hr{
+    display: inline;
+}*/
+.cont3 p{
+    color: gray;
+}
+.cont3 .gap{
+    display: flex;
+
+}
+.cont3 .duration{
+    color: rgb(115, 112, 112);
+    font-weight: 500;
+    display: block;
+    position: relative;
+    float:inline-end;
+    
+}
+.cont3 .school, .cont3 .domain{
+    text-transform: capitalize;
+    color: #515050;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.cont3 ul li p{
+    margin-left:25px ;
+    flex-grow: 1;
+}
+
+
+
