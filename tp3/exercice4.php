@@ -4,19 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Résolution d'équations du second degré</title>
+    <title>equationDeuxiemeDeg</title>
 </head>
 <body>
-    <h1>Résolution d'équations du second degré</h1>
+    <h1>solution d'équations du second degré</h1>
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-        <label for="a">Coefficient a :</label>
-        <input type="number" id="a" name="a" required >
+        
+        <input type="number" id="a" name="a" required placeholder="a:" >
         <br>
-        <label for="b">Coefficient b :</label>
-        <input type="number" id="b" name="b" required>
+        <input type="number" id="b" name="b" required placeholder="b:">
         <br>
-        <label for="c">Coefficient c :</label>
-        <input type="number" id="c" name="c" required>
+        <input type="number" id="c" name="c" required placeholder="c:">
         <br>
         <input type="submit" value="Calculer">
     </form>
